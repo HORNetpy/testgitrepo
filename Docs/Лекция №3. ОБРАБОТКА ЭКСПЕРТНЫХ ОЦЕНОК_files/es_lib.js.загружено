@@ -1,0 +1,14 @@
+
+ function TopLection(CountLection,BackHtml,TopLine) {
+	document.write("<p align='right'> <font size=2 color='#800000'>");
+	if (TopLine==1) document.write("<hr>");
+	document.write("Дисциплина - 'Экспертные системы' - - -  Лекции №");
+		var i;
+		for (i=1;i<=CountLection;i++)
+			document.write("&nbsp;<a href='../es0"+i+"/es"+i+".htm' style='color: #800000;'>"+i+"</a>&nbsp;");
+		document.write("&nbsp;&nbsp;<a href='../../index.htm' style='color: #800000;'>Оглавление</a>");
+		document.write("<hr>");
+	document.write("</font>");
+	document.write("</p>");
+	}
+
